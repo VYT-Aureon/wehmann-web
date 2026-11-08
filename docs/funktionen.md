@@ -60,9 +60,28 @@ Vorgehen: Element für Element. Erst wird das Element richtig erkannt, dann werd
 
 ---
 
+## 3. Filter-Sidebar: in Arbeit
+
+### Allgemein (gilt für alle Filter-Karten)
+
+- Filterzustand steht in der URL (z. B. `/produkte?kategorie=ruetteltechnik,betontechnik`). Teilbare Links, Zurück-Button funktioniert. Bei zu vielen Parametern später neu überlegen.
+- Standard ist "kein Filter": Es werden alle Produkte angezeigt. Gefiltert wird erst nach einem Klick.
+- Mobil: Die Sidebar wird durch einen Filter-Icon-Button ersetzt, der die Filter in einem Panel öffnet. (Genaues Panel-Verhalten noch offen.)
+
+### Karte "Kategorien": festgelegt
+
+- Überschrift "KATEGORIEN", Einträge mit Icon. Im Mockup 8 Stück: Rütteltechnik, Betontechnik, Verdichtung, Schneiden & Trennen, Heben & Fördern, Reinigungstechnik, Stromerzeuger, Zubehör.
+- Die Liste ist erweiterbar und kürzbar, also datengetrieben und nicht fest im Layout verdrahtet.
+- Multiselect: Mehrere Kategorien können gleichzeitig aktiv sein.
+- Kein "Alle"-Eintrag. Ohne Auswahl wird alles angezeigt.
+- Im Mockup ist "Rütteltechnik" hervorgehoben. Das ist nur der Zustand "ausgewählt" und kein Standard.
+- Hinter jeder Kategorie steht die Anzahl der Produkte in dieser Kategorie, z. B. "Rütteltechnik (12)".
+
+---
+
 ## Stand und nächster Schritt
 
-- Header und Hero sind festgelegt.
-- Als Nächstes folgt die Filter-Sidebar, Karte für Karte. Zuerst die Kategorien-Karte: 8 Einträge mit Icon, Rütteltechnik ist als ausgewählt hervorgehoben.
-- Ich habe der Kategorien-Karte beschrieben, was ich sehe. Die Antwort "richtig erkannt?" steht noch aus.
+- Header, Hero und Kategorien-Karte sind festgelegt.
+- Die weiteren Filter-Karten (Einsatzgewicht, Preisspanne, Marke, Verfügbarkeit, Reset) werden später festgelegt.
+- Als Nächstes folgt die Produktliste (Element 4).
 - Vorgehen bleibt: immer nur ein Element beschreiben und nachfragen, erst nach Bestätigung weiter.
