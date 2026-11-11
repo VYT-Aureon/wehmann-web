@@ -4,7 +4,7 @@ import { ServiceGrid } from "@/components/sections/service-grid";
 import { PageHeader } from "@/components/sections/page-header";
 
 export const metadata: Metadata = {
-  title: "Dienstleistungen | BAUTECH – Maschinen & Service",
+  title: "Dienstleistungen | Wehmann – Maschinen & Service",
   description:
     "Wartung, Reparatur, Transport und Beratung rund um Ihre Baumaschinen.",
 };

@@ -25,7 +25,7 @@ Vorgehen: Element für Element. Erst wird das Element richtig erkannt, dann werd
 ## 1. Header: festgelegt
 
 **Logo**
-- Logo "BAUTECH – Maschinen & Service" ist ein Platzhalter und wird später ersetzt.
+- Logo "Wehmann – Maschinen & Service" ist ein Platzhalter und wird später ersetzt.
 - Klick führt zur Startseite.
 
 **Navigation**

@@ -17,7 +17,7 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "BAUTECH – Maschinen & Service",
+  title: "Wehmann – Maschinen & Service",
   description:
     "Baumaschinen zur Miete und Service für Profis. Robuste Technik, auf die Sie sich verlassen können.",
 };

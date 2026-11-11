@@ -5,10 +5,14 @@ import { Hero } from "@/components/sections/hero";
 import { SectionHeader } from "@/components/sections/section-header";
 import { ServiceGrid } from "@/components/sections/service-grid";
 import { ProductCard } from "@/components/produkte/product-card";
-import { filtereProdukte, parseFilter } from "@/lib/produkte";
+import { ladeProdukte } from "@/lib/produkte-daten";
 
-export default function Startseite() {
-  const empfohlen = filtereProdukte(parseFilter({})).slice(0, 4);
+// Startseite wird alle 60 Sekunden neu erzeugt, damit Änderungen in Supabase sichtbar werden
+export const revalidate = 60;
+
+export default async function Startseite() {
+  const produkte = await ladeProdukte();
+  const empfohlen = produkte.slice(0, 4);
 
   return (
     <>

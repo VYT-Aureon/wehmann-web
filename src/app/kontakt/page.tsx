@@ -4,8 +4,8 @@ import { site } from "@/data/site";
 import { PageHeader } from "@/components/sections/page-header";
 
 export const metadata: Metadata = {
-  title: "Kontakt | BAUTECH – Maschinen & Service",
-  description: "So erreichen Sie BAUTECH – Maschinen & Service.",
+  title: "Kontakt | Wehmann – Maschinen & Service",
+  description: "So erreichen Sie Wehmann – Maschinen & Service.",
 };
 
 export default function Kontakt() {

@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    // Produktbilder aus dem Supabase-Storage
+    remotePatterns: [
+      { protocol: "https", hostname: "*.supabase.co", pathname: "/storage/v1/object/**" },
+    ],
+  },
 };
 
 export default nextConfig;

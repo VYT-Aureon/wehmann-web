@@ -3,8 +3,8 @@ import { CtaBanner } from "@/components/sections/cta-banner";
 import { PageHeader } from "@/components/sections/page-header";
 
 export const metadata: Metadata = {
-  title: "Über uns | BAUTECH – Maschinen & Service",
-  description: "Wer wir sind und wofür BAUTECH steht.",
+  title: "Über uns | Wehmann – Maschinen & Service",
+  description: "Wer wir sind und wofür Wehmann steht.",
 };
 
 export default function UeberUns() {
